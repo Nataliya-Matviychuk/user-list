@@ -1,0 +1,24 @@
+@media(max-width: 767px) {
+    .user-menu {
+        justify-content: center !important;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 435px) {
+
+    .user-menu {
+        display: none !important;
+    }
+
+    .mb-5 {
+        margin-bottom: 10px !important;
+    }
+
+}
+
+@media (min-width: 435px) {
+    .invisible-navbar {
+        display: none;
+    }
+}
